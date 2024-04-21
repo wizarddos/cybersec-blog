@@ -1,6 +1,6 @@
 markdown: kramdown
 highlighter: rouge
-url: "https://wizarddos.github.io/cybersec-blog/" 
+url: "https://wizarddos.github.io/" 
 plugins:
   - jekyll-sitemap
   - jekyll-feed
