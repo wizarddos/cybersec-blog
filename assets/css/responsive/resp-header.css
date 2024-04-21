@@ -1,0 +1,14 @@
+@media (max-width: 890px){
+    .text{
+        display: none;
+    }
+
+    .icon::before{
+        display: inline;
+        font-size: xx-large;
+    }
+
+    .side-menu{
+        display: inline;
+    }
+}

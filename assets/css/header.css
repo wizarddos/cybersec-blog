@@ -1,0 +1,30 @@
+@import url(colors.css);
+header{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    background-color: var(--color-blue);
+    z-index: 15;
+    position: sticky;
+    top: 0;
+}
+
+.header-item{
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.header-item:hover{
+    text-decoration: underline;
+}
+
+.side-menu{
+    display: none;
+}
+
+#open-menu{
+    background-color: transparent;
+    border: none;
+}

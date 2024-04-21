@@ -1,0 +1,11 @@
+markdown: kramdown
+highlighter: rouge
+url: "https://wizarddos.github.io/cybersec-blog/" 
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+collections: 
+  series:
+    output: true
+  categories:
+    output: true

@@ -1,0 +1,12 @@
+@media (max-width: 890px){
+    .article{
+        width: 100%; 
+        margin: 0;
+        z-index: 40;
+    }
+
+    .series-part-link{
+        width: 40%;
+    }
+
+}

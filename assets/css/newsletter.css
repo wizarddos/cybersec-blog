@@ -1,0 +1,33 @@
+@import url(colors.css);
+
+.nsl-label{
+    font-size: medium;
+    
+}
+
+.nsl-copyright{
+    font-size: x-small;
+}
+
+.nsl-p{
+    padding: 0;
+}
+
+.nsl-email{
+    width: 90%;
+    border-radius: 5px;
+    color: var(--color-dark);
+    padding: 1%;
+}
+
+.nsl-sign{
+    background-color: var(--color-blue);
+    padding: 1%;
+    border: var(--color-blue) 2px solid;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.nsl-sign:hover{
+    background-color: #162131;
+}

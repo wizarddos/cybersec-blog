@@ -1,0 +1,85 @@
+.social-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon{
+    font-size: 40px;
+}
+
+.desc-with-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.desc{
+    width: 50%;
+}
+
+.img-me{
+    width: 110%;
+
+    border-radius: 3px;
+    border: #111 solid 4px;
+}
+
+.skills{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2% auto;
+}
+
+.commisions{
+    width: 75%;
+    text-align: center;
+}
+
+.skill-section{
+    width: 50%;
+    list-style-position: inside;
+}
+
+.skill-list{
+    margin: 0 auto;
+}
+
+
+@media (max-width: 815px){
+    .desc{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .img-me{
+        width: 95%;
+    }
+
+    .img{
+        display: flex;
+        justify-content: center;
+    }
+
+    .skills{
+        text-align: center;
+        margin: 2px auto;
+        flex-direction: column;
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 1200px){
+    .desc-with-img{
+        display: block;
+    }
+
+    .img{
+        width: 70%;
+        margin: 2px auto;
+    }
+
+    .desc{
+        width: 90%;
+    }
+}

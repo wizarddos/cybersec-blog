@@ -1,0 +1,44 @@
+---
+layout: default
+permalink: /categories/{{ page.category }}
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/categories.css">
+<nav class="categories-nav">
+    <ul class="categories-list">
+        <li><a href="{{site.baseurl}}/categories/defensive">Defensive (Blue Team)</a></li>
+        <li><a href="{{site.baseurl}}/categories/offensive">Offensive (Read Team)</a></li>
+        <li><a href="{{site.baseurl}}/categories/reversing">Reverse engineering</a></li>
+        <li><a href="{{site.baseurl}}/categories/writeups">Writeups</a></li>
+    </ul>
+</nav>
+<section class="block article">
+    <h1 class="centered">Category - {{ page.title }}</h1>
+
+    {% assign category_posts = site.posts | where: "category", page.category %}
+
+    {% for post in category_posts %}
+        <article class="post">
+            <h3>
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </h3>
+            <div>
+                <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
+            </div>
+            <div class="entry">
+                {{ post.excerpt }}
+            </div>
+            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">
+                Read More
+            </a>
+        </article>
+    {% endfor %}
+
+    {% assign pnumber = category_posts | size %}
+    {% if pnumber == 0 %}
+        <p style="text-align: center;">
+            No posts found - but don't worry.<br/>
+            This section will soon be filled with content
+        </p>
+    {% endif %} 
+</section>

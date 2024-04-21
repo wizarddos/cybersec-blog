@@ -1,0 +1,96 @@
+@import url(colors.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: var(--color-light);
+}
+
+:root{
+    --standard: 75%;
+    --font-size: 25px;
+}
+
+body{
+    background-color: var(--color-dark);
+    font-size: 25px;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    margin-bottom: 2%;
+    padding-top: 3%;
+}
+
+.main{
+    text-align: justify;
+    width: 100%;
+}
+
+section{
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 3% 0;
+}
+
+.intro{
+    width: var(--standard);
+    display: flex;
+    justify-content: center;
+    padding: 3% 2%;
+}
+
+.pfp-img{
+    border: #111 solid 4px;
+    border-radius: 3px;
+    width: 15%;
+}
+
+.owner-quote{
+    font-size: 15px;
+    font-family: "Courier New", sans-serif;
+}
+
+.message{
+    margin-left: 5%;
+}
+
+.articles-tab{
+    width: var(--standard);
+}
+
+.section-heading{
+    text-align: center;
+}
+
+.categories-ul > li{
+    list-style-type: none;
+}
+
+.block{
+    border-radius: 5px;
+    margin-bottom: 3%;
+    padding: 2%;
+}
+
+a{
+    color: inherit;
+    text-decoration: underline;
+    color: var(--color-lighter);
+}
+
+
+a:hover{
+    text-decoration: none;
+}
+
+.small-text{
+    font-size: x-large;
+}
+
+.newest{
+    border: var(--color-blue) 15px solid;
+}

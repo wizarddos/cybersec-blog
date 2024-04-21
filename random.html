@@ -1,0 +1,43 @@
+---
+permalink: /random
+---
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/styles.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/responsive/main.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/article.css">
+        <link rel="stylesheet" href="{{sire.baseurl}}/assets/css/random.css">
+        <title>Choosing random article</title>
+    </head>
+    <body>
+        <h1 class = "centered header block" id  = "header">Preparing perfect article for you</h1>
+        <p class = "centered">Doesn't work? <a href = "{{ site.baseurl }}/">Go back home</a></p>
+        <script>
+            let dots = 0;
+            let reduce = 0;
+            const animateText = () =>{
+                const header = document.querySelector("#header")
+                
+                if(dots < 3){
+                    header.innerHTML = header.innerHTML+"."
+                    dots++
+                }else{
+                    dots = 0;
+                    header.innerHTML = header.innerHTML.substring(0, header.innerHTML.length - 3)
+                }
+            }
+
+            setInterval(animateText, 1000)
+
+            let articles = [];
+            {% for post in site.posts %}
+                articles.push("{{ post.url }}") 
+            {% endfor %}
+
+            const random = Math.floor(Math.random()*articles.length)
+            
+            window.location.replace(`{{ site.baseurl }}${articles[random]}`)
+        </script>
+    </body>
+</html>

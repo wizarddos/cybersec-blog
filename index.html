@@ -1,0 +1,32 @@
+---
+layout: default
+title: Home
+---
+            <section class = "intro block">
+                <img src="assets/img/ProfilePic.jpeg" class = "pfp-img" alt="My frequent profile picture">
+                <section class="intro-text">
+                    <p class="message">
+                        <span class = "owner-quote">wizarddos:</span>
+                        <br/>
+                        <h1 class = "small-text">This is the darker side of this blog</h1>
+                        <br/>
+                        Welcome and take a seat
+                    </p>
+                </section>
+            </section>
+            <section class = "newest articles-tab block">
+                {% assign post = site.posts.first %}
+                <h3 class = "section-heading">Newest hack: <br/> {{ post.title }}</h3><br/>
+                <p>
+                    {{ post.excerpt }}
+                </p>
+                <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"><br/>
+                    Continue reading
+                </a>
+            </section>
+            <section class = "articles-tab block">
+                <h2>What is this place?</h2>
+                <p>
+                    That's a darker place in my blog - Here, I'll be sharing everything regarding hacking and cybersecurity
+                </p>
+            </section>
