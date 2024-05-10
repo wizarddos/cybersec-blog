@@ -1,5 +1,10 @@
 @import url(colors.css);
 
+.nsl-form{
+    width: 50%;
+    margin: 0 auto;
+}
+
 .nsl-label{
     font-size: medium;
     
