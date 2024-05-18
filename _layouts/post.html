@@ -14,8 +14,24 @@ comments: true
         Published: {{ page.date | date_to_string }} <br/>
         Author: {{ page.author }}
     </p>
-    <br/><br/>
-    <br><br><br>
+    <br/>
+    <form
+action="https://buttondown.email/api/emails/embed-subscribe/wizarddos"
+method="post"
+target="popupwindow"
+onsubmit="window.open('https://buttondown.email/wizarddos', 'popupwindow')"
+class="nsl-form embeddable-buttondown-form"
+>
+<label for="bd-email" class ="nsl-label"><p class = "nsl-p">
+    Subscribe to my newsletter and don't miss any new article
+</p></label>
+<input type="email" name="email" id="bd-email" class = "nsl-email" placeholder = "Your email here"/>
+<br/>
+<input type="submit" value="Subscribe" class = "nsl-sign"/>
+<p style ="display: none;">
+  <a href="https://buttondown.email/refer/wizarddos" class = "nsl-copyright" target="_blank">Powered by Buttondown.</a>
+</p>
+</form>
         <div id="disqus_thread"></div>
         <script>
             /**
@@ -35,21 +51,3 @@ comments: true
         </script>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </section>
-
-<form
-action="https://buttondown.email/api/emails/embed-subscribe/wizarddos"
-method="post"
-target="popupwindow"
-onsubmit="window.open('https://buttondown.email/wizarddos', 'popupwindow')"
-class="embeddable-buttondown-form nsl-form"
->
-<label for="bd-email" class ="nsl-label"><p class = "nsl-p">
-    Subscribe to my newsletter and don't miss any new article
-</p></label>
-<input type="email" name="email" id="bd-email" class = "nsl-email" placeholder = "Your email here"/>
-<br/>
-<input type="submit" value="Subscribe" class = "nsl-sign"/>
-<p style ="display: none;">
-  <a href="https://buttondown.email/refer/wizarddos" class = "nsl-copyright" target="_blank">Powered by Buttondown.</a>
-</p>
-</form>

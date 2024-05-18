@@ -2,7 +2,7 @@
 
 .nsl-form{
     width: 50%;
-    margin: 0 auto;
+    margin: 2% auto;
 }
 
 .nsl-label{
@@ -35,4 +35,16 @@
 
 .nsl-sign:hover{
     background-color: #162131;
+}
+
+@media (max-width: 890px){
+
+    .nsl-form{
+        width: 100%;
+        margin: 2% auto;
+    }
+    
+    .nsl-email{
+        width: 100%;
+    }
 }
