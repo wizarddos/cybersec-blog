@@ -23,7 +23,7 @@ $ sudo echo 'MACHINE_IP cyberlens.thm' >> /etc/hosts
 $ export HOST="cyberlens.thm"
 ```
 
-Then, time for port scanning
+Then, it's time for port scanning
 ```
 $ rustscan -a $IP -- -sC -sV
 .----. .-. .-. .----..---.  .----. .---.   .--.  .-. .-.
