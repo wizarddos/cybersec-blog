@@ -6,6 +6,9 @@ category: writeups
 excerpt_separator: <!--more-->
 ---
 
+(Wanna watch a video version?)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-LRlxsA8_7E?si=a_k2oFa32vAi_9U1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Another day, another challenge. This time is easy one.
 I don't know what to expect. I only know that there will be a webserver
 
