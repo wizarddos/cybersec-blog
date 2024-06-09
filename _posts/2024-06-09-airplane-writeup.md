@@ -10,7 +10,7 @@ Welcome everyone!
 New machine landed on tryhackme, so of course I had to give it a try
 
 It's called [`Airplane`](https://tryhackme.com/r/room/airplane) - I don't know what to expect but let's go
-
+<!--more-->
 ### Recon
 
 The first thing is always a port scan
