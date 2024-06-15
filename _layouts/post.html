@@ -2,7 +2,24 @@
 layout: default
 comments: true
 ---
-
+<form
+action="https://buttondown.email/api/emails/embed-subscribe/wizarddos"
+method="post"
+target="popupwindow"
+onsubmit="window.open('https://buttondown.email/wizarddos', 'popupwindow')"
+class="nsl-form embeddable-buttondown-form"
+style="text-align: center;"
+>
+    <label for="bd-email" class ="nsl-label"><p class = "nsl-p">
+        Subscribe to my newsletter and don't miss any new article
+    </p></label>
+    <input type="email" name="email" id="bd-email" class = "nsl-email" placeholder = "Your email here"/>
+    <br/>
+    <input type="submit" value="Subscribe" class = "nsl-sign"/>
+    <p style ="display: none;">
+    <a href="https://buttondown.email/refer/wizarddos" class = "nsl-copyright" target="_blank">Powered by Buttondown.</a>
+    </p>
+</form>
 <link rel="stylesheet" href="{{site.baseurl}}/assets/css/monokai.css">
 <section class = "article">
     <h1 class = "centered">{{ page.title}} </h1>
@@ -15,23 +32,6 @@ comments: true
         Author: {{ page.author }}
     </p>
     <br/>
-    <form
-action="https://buttondown.email/api/emails/embed-subscribe/wizarddos"
-method="post"
-target="popupwindow"
-onsubmit="window.open('https://buttondown.email/wizarddos', 'popupwindow')"
-class="nsl-form embeddable-buttondown-form"
->
-<label for="bd-email" class ="nsl-label"><p class = "nsl-p">
-    Subscribe to my newsletter and don't miss any new article
-</p></label>
-<input type="email" name="email" id="bd-email" class = "nsl-email" placeholder = "Your email here"/>
-<br/>
-<input type="submit" value="Subscribe" class = "nsl-sign"/>
-<p style ="display: none;">
-  <a href="https://buttondown.email/refer/wizarddos" class = "nsl-copyright" target="_blank">Powered by Buttondown.</a>
-</p>
-</form>
         <div id="disqus_thread"></div>
         <script>
             /**

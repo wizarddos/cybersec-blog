@@ -93,3 +93,7 @@ blockquote > p{
 .article-text > *{
     padding: 1%;
 }
+
+div.article-text > h3::before, h2::before{
+    content: "> ";
+}
