@@ -5,6 +5,8 @@ author: wizarddos
 category: writeups
 excerpt_separator: <!--more-->
 ---
+Wanna watch a video?
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2x0G4RzY2Is?si=YxhnX0GOqCLkK789" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Another day, another machine. This time we'll try to solve [mKingdom](https://tryhackme.com/r/room/mkingdom)
 This is a really new machine for me, as it was published a day or two ago, so off we go.
