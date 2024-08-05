@@ -15,7 +15,7 @@ Some challenges were pretty straight forward, some weren't, but that's how CTFs 
 
 All right, end of my opinions
 Here are my solves - I hope you'll enjoy and learn something off of them!
-
+<!--more-->
 ## 1. Passwordless - Web
 
 - Flag: `n00bz{1337-13371337-1337-133713371337-1337}`
